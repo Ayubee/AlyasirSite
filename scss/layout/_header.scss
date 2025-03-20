@@ -1,0 +1,42 @@
+.header {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  //   height: inherit;
+  background-color: $color-secondary;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link__logo {
+}
+
+.header__logo {
+  color: $color-text;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.header__list {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.header__link {
+  color: $color-text;
+  font-weight: bold;
+}
+
+.header__link:hover {
+  color: $color-blue;
+  text-decoration: underline;
+}
