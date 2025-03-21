@@ -40,3 +40,24 @@
   color: $color-blue;
   text-decoration: underline;
 }
+
+.none {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__box {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+}
