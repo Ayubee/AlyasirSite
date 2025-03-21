@@ -24,6 +24,7 @@
   color: $color-text;
   font-weight: 600;
   font-size: 4rem;
+  display: flex;
 }
 .header__list {
   display: flex;
@@ -56,11 +57,19 @@
   .none {
     display: none;
   }
+
+  .header__burger__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .header__box {
     flex-direction: column;
+    justify-content: center;
   }
 
   .header__list {
     flex-direction: column;
+    gap: 3rem;
   }
 }
